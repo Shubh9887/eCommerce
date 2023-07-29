@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[opening Amazon]]>
+    </line>
+    <line>
+      <![CDATA[opening Amazon]]>
+    </line>
+    <line>
+      <![CDATA[opening Amazon]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-29T18:53:47 IST" name="Suite" finished-at="2023-07-29T18:54:24 IST" duration-ms="36958">
+    <groups>
+    </groups>
+    <test started-at="2023-07-29T18:53:47 IST" name="eCommerceSites" finished-at="2023-07-29T18:54:24 IST" duration-ms="36958">
+      <class name="testClasses.launchAjio">
+        <test-method signature="openAjio()[pri:0, instance:testClasses.launchAjio@8f4ea7c]" started-at="2023-07-29T18:54:11 IST" name="openAjio" finished-at="2023-07-29T18:54:24 IST" duration-ms="12387" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening Amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAjio -->
+      </class> <!-- testClasses.launchAjio -->
+      <class name="testClasses.launchAmazon">
+        <test-method signature="openAmazon()[pri:0, instance:testClasses.launchAmazon@3a93b025]" started-at="2023-07-29T18:53:47 IST" name="openAmazon" finished-at="2023-07-29T18:54:00 IST" duration-ms="13608" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening Amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAmazon -->
+      </class> <!-- testClasses.launchAmazon -->
+      <class name="testClasses.launchFlipkart">
+        <test-method signature="openFlipkart()[pri:0, instance:testClasses.launchFlipkart@223d2c72]" started-at="2023-07-29T18:54:00 IST" name="openFlipkart" finished-at="2023-07-29T18:54:11 IST" duration-ms="10859" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening Amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+      </class> <!-- testClasses.launchFlipkart -->
+    </test> <!-- eCommerceSites -->
+  </suite> <!-- Suite -->
+</testng-results>
