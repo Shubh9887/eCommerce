@@ -1,31 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[opening Amazon]]>
     </line>
     <line>
-      <![CDATA[opening Amazon]]>
+      <![CDATA[opening Flipkart]]>
     </line>
     <line>
-      <![CDATA[opening Amazon]]>
+      <![CDATA[opening Ajio]]>
+    </line>
+    <line>
+      <![CDATA[open Myntra]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-29T18:53:47 IST" name="Suite" finished-at="2023-07-29T18:54:24 IST" duration-ms="36958">
+  <suite started-at="2023-07-29T19:38:52 IST" name="Suite" finished-at="2023-07-29T19:39:51 IST" duration-ms="58677">
     <groups>
     </groups>
-    <test started-at="2023-07-29T18:53:47 IST" name="eCommerceSites" finished-at="2023-07-29T18:54:24 IST" duration-ms="36958">
-      <class name="testClasses.launchAjio">
-        <test-method signature="openAjio()[pri:0, instance:testClasses.launchAjio@8f4ea7c]" started-at="2023-07-29T18:54:11 IST" name="openAjio" finished-at="2023-07-29T18:54:24 IST" duration-ms="12387" status="PASS">
+    <test started-at="2023-07-29T19:38:52 IST" name="eCommerceSites" finished-at="2023-07-29T19:39:51 IST" duration-ms="58677">
+      <class name="testClasses.MyntraTest">
+        <test-method signature="myntraTest()[pri:0, instance:testClasses.MyntraTest@3febb011]" started-at="2023-07-29T19:39:22 IST" name="myntraTest" finished-at="2023-07-29T19:39:51 IST" duration-ms="28814" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[opening Amazon]]>
+              <![CDATA[open Myntra]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- myntraTest -->
+      </class> <!-- testClasses.MyntraTest -->
+      <class name="testClasses.launchAjio">
+        <test-method signature="openAjio()[pri:0, instance:testClasses.launchAjio@74fe5c40]" started-at="2023-07-29T19:39:12 IST" name="openAjio" finished-at="2023-07-29T19:39:22 IST" duration-ms="9975" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening Ajio]]>
             </line>
           </reporter-output>
         </test-method> <!-- openAjio -->
       </class> <!-- testClasses.launchAjio -->
       <class name="testClasses.launchAmazon">
-        <test-method signature="openAmazon()[pri:0, instance:testClasses.launchAmazon@3a93b025]" started-at="2023-07-29T18:53:47 IST" name="openAmazon" finished-at="2023-07-29T18:54:00 IST" duration-ms="13608" status="PASS">
+        <test-method signature="openAmazon()[pri:0, instance:testClasses.launchAmazon@7e07db1f]" started-at="2023-07-29T19:38:52 IST" name="openAmazon" finished-at="2023-07-29T19:39:01 IST" duration-ms="9308" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[opening Amazon]]>
@@ -34,10 +46,10 @@
         </test-method> <!-- openAmazon -->
       </class> <!-- testClasses.launchAmazon -->
       <class name="testClasses.launchFlipkart">
-        <test-method signature="openFlipkart()[pri:0, instance:testClasses.launchFlipkart@223d2c72]" started-at="2023-07-29T18:54:00 IST" name="openFlipkart" finished-at="2023-07-29T18:54:11 IST" duration-ms="10859" status="PASS">
+        <test-method signature="openFlipkart()[pri:0, instance:testClasses.launchFlipkart@436813f3]" started-at="2023-07-29T19:39:01 IST" name="openFlipkart" finished-at="2023-07-29T19:39:12 IST" duration-ms="10465" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[opening Amazon]]>
+              <![CDATA[opening Flipkart]]>
             </line>
           </reporter-output>
         </test-method> <!-- openFlipkart -->

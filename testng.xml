@@ -6,6 +6,7 @@
       <class name="testClasses.launchAmazon"/>
       <class name="testClasses.launchFlipkart"/>
       <class name="testClasses.launchAjio"/>
+      <class name="testClasses.MyntraTest"/>
     </classes>
   </test> <!-- eCommerceSites -->
 </suite> <!-- Suite -->
